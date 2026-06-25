@@ -1,0 +1,52 @@
+{
+  "dataset_info": {
+    "n_samples": 4001,
+    "n_features_original": 19,
+    "n_features_selected": 19,
+    "classes": [
+      "Healthy",
+      "IBD",
+      "MS",
+      "RA"
+    ],
+    "train_samples": 3200,
+    "test_samples": 801
+  },
+  "model_performance": {
+    "RandomForest": {
+      "accuracy": 0.8976279650436954,
+      "f1_macro": 0.8867959936611156,
+      "f1_weighted": 0.896094852704908,
+      "precision_macro": 0.8887399156243061,
+      "recall_macro": 0.8867773152850931
+    },
+    "SVM": {
+      "accuracy": 0.8514357053682896,
+      "f1_macro": 0.8366395822728113,
+      "f1_weighted": 0.846928868036315,
+      "precision_macro": 0.8362242825647255,
+      "recall_macro": 0.8455343405864403
+    },
+    "LogisticRegression": {
+      "accuracy": 0.8389513108614233,
+      "f1_macro": 0.8227720095076545,
+      "f1_weighted": 0.8351172068280692,
+      "precision_macro": 0.8216182695118596,
+      "recall_macro": 0.833681412314045
+    },
+    "XGBoost": {
+      "accuracy": 0.9225967540574282,
+      "f1_macro": 0.9130250730131113,
+      "f1_weighted": 0.9217905074176242,
+      "precision_macro": 0.9165297480327953,
+      "recall_macro": 0.9103436668065549
+    },
+    "Ensemble": {
+      "accuracy": 0.9238451935081149,
+      "f1_macro": 0.9151866267902938,
+      "f1_weighted": 0.9232999254794261,
+      "precision_macro": 0.9143918455211443,
+      "recall_macro": 0.9162853092040876
+    }
+  }
+}

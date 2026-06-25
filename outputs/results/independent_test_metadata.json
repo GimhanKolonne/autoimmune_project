@@ -1,0 +1,13 @@
+{
+  "total_samples": 20,
+  "class_distribution": {
+    "Healthy": 5,
+    "IBD": 5,
+    "MS": 5,
+    "RA": 5
+  },
+  "creation_date": "2026-02-11T11:02:13.686890",
+  "random_state": 42,
+  "excluded_from_training": true,
+  "purpose": "Frontend testing without training bias"
+}
